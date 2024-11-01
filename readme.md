@@ -10,6 +10,7 @@ Este repositório contém o código-fonte dos testes automatizados para a API de
 3. [Execução dos Testes](#execução-dos-testes)
 4. [Estrutura do Projeto](#estrutura-do-projeto)
 5. [Detalhes dos Testes](#detalhes-dos-testes)
+6. [Comprovação da execução dos testes](#comprovação-da-execução-dos-testes)
 
 ---
 
@@ -64,5 +65,9 @@ mvn clean test
         - **Descrição**: Autentica o usuário, cria um semáforo e armazena seu `ID`.
     - **Cenário**: Deleção de um semáforo com sucesso.
         - **Descrição**: Recupera o `ID` do semáforo criado no contexto e envia uma requisição `DELETE` para remover o semáforo, validando o status de resposta (`204`).
+
+### Comprovação da Execução dos Testes
+
+![Cucumber](src/assets/cucumber.jpeg)
 
 --- 
