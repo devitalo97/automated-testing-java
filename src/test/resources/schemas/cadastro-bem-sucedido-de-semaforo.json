@@ -1,0 +1,70 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730417679.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "id",
+    "status",
+    "lat",
+    "lng",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#root/id",
+      "title": "Id",
+      "type": "integer",
+      "examples": [
+        88
+      ],
+      "default": 0
+    },
+    "status": {
+      "$id": "#root/status",
+      "title": "Status",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "green"
+      ],
+      "pattern": "^.*$"
+    },
+    "lat": {
+      "$id": "#root/lat",
+      "title": "Lat",
+      "type": "number",
+      "examples": [
+        -29.3607451963726
+      ],
+      "default": 0.0
+    },
+    "lng": {
+      "$id": "#root/lng",
+      "title": "Lng",
+      "type": "number",
+      "examples": [
+        -51.09864755838017
+      ],
+      "default": 0.0
+    },
+    "createdAt": {
+      "$id": "#root/createdAt",
+      "title": "Createdat",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "2024-10-31T23:34:23.478+00:00"
+      ],
+      "pattern": "^.*$"
+    },
+    "updatedAt": {
+      "$id": "#root/updatedAt",
+      "title": "Updatedat",
+      "type": "null",
+      "default": null
+    }
+  }
+}
