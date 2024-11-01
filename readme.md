@@ -45,10 +45,10 @@ mvn clean test
 ### Estrutura do Projeto
 
 - **src/test/resources/features**: Arquivos `.feature` descrevendo os cenários de teste em Gherkin.
-    - `GerenciamentoSemaforos.feature`: Testa o cadastro e validação de campos obrigatórios para criação de semáforos.
+    - `CadastroSemaforos.feature`: Testa o cadastro e validação de campos obrigatórios para criação de semáforos.
     - `DelecaoSemaforos.feature`: Testa a deleção de um semáforo recém-criado.
-- **src/test/java/steps**: Arquivo `CadastroSemaforosSteps.java` contendo os passos dos testes BDD.
-- **src/test/java/services**: Arquivo `CadastroSemaforosService.java` com a lógica de requisições HTTP e validação de contrato JSON.
+- **src/test/java/steps**: Arquivo `CadastroSemaforosSteps` contendo os passos dos testes BDD.
+- **src/test/java/services**: Arquivo `CadastroSemaforosService` com a lógica de requisições HTTP e validação de contrato JSON.
 - **src/test/resources/schemas**: Arquivos JSON com o contrato de resposta esperado para os testes.
 - **src/test/java/models**: Modelos de dados `SemaforoModel` e `StatusErrorMessageModel`, usados para representar dados nos testes.
 
